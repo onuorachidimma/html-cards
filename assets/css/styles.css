@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+.card-shadow{
+    box-shadow: 0 5px 16px 0 rgba(8, 15, 52, 0.07) !important;
+    transition: all 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+.containerise{
+    margin: auto;
+    width: 80%;
+    padding-bottom: 10%;
+}
+
+.post{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 4%;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-container > div{
+    width: 32%;
+    border-radius: 15px;
+    background: white;
+}
+
+.cards-container img{
+    width: 100%;
+}
+
+.browse-posts{
+    color: black;
+    border: solid 1px #e2e3e9;
+    border-radius: 30px;
+    /* padding: 15px; */
+    padding: 15px 30px;
+    /* padding-top: ;
+    padding-bottom: ;
+    padding-left: ;
+    padding-right: ; */
+    text-decoration: none;
+}
+
+.about-post{
+    padding: 8%;
+}
+
+.about-post > h2{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.post-excerpt{
+    color: #8c8c95;
+    font-size: 0.94rem;
+    line-height: 1.5;
+}
+
+.p-5{
+    padding-bottom: 5%;
+}
+
+.p-8{
+    padding-bottom: 8%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.jc-space-between{
+    justify-content: space-between;
+}
