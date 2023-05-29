@@ -11,7 +11,6 @@ body{
 .card-shadow{
     box-shadow: 0 5px 16px 0 rgba(8, 15, 52, 0.07) !important;
     transition: all 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
- 
 }
 
 .card-shadow img{
@@ -38,7 +37,7 @@ body{
 
 .cards-container > div{
     width: 32%;
-    border-radius: 15px;
+    border-radius: 30px;
     background: white;
 }
 
@@ -54,12 +53,7 @@ body{
     color: black;
     border: solid 1px #e2e3e9;
     border-radius: 30px;
-    /* padding: 15px; */
     padding: 20px 35px;
-    /* padding-top: ;
-    padding-bottom: ;
-    padding-left: ;
-    padding-right: ; */
     text-decoration: none;
 }
 
@@ -81,22 +75,6 @@ body{
     margin-bottom: 23px;
 }
 
-
-
-#profile-card-section img{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: top;
-}
-
-#profile-card-section{
-    width: 60%;
-    margin: auto;
-    margin-bottom: 15%;
-}
-
 .post-excerpt{
     color: #8c8c95;
     font-size: 0.99rem;
@@ -111,10 +89,6 @@ body{
     padding-bottom: 8%;
 }
 
-.p-10{
-    padding: 10%;
-}
-
 .d-flex{
     display: flex;
 }
@@ -123,56 +97,9 @@ body{
     justify-content: space-between;
 }
 
-.w-40{
-    width: 40%;
-}
-
-#icons-container span{
-    width: 40px;
-    border-radius: 50%;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.w-60{
-    width: 60%;
-}
-
-.color-gray{
-    color: #8c8c95;
-    font-size: 0.97rem;
-    line-height: 1.5;
-}
-
 .color-black{
     color: #232323;
 }
-
-.mb-1p5{
-    margin-bottom: 1.5%;
-}
-
-.mb-5{
-    margin-bottom: 5%;
-}
-
-#icons-container i {
-    font-size: 22px;
-}
-
-.bg-red{
-    background-color: red;
-}
-
-.bg-facebook{
-    background-color: #3e5b98;
-}
-
-.bg-twitter{
-    background-color: #4da7de;
-} 
 
 .color-white{
     color: white;
@@ -200,3 +127,109 @@ i{
     transform: scale(1.0);
 }
 
+@media screen and (max-width: 900px){
+    .cards-container{
+        flex-wrap: wrap;
+    }
+
+    .cards-container > div{
+        width: 48%;
+    }
+
+    #post-3{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cards-container{
+        /* display: flex; */
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+    }
+    
+    .cards-container > div{
+        width: 100%;
+        /* border-radius: 30px;
+        background: white; */
+    }
+
+    .post{
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .post > h1{
+        margin-bottom: 30px;
+    }
+ 
+}
+
+
+/* STYLING FOR THE PART I COMMENTED OUT IN THE HTML DOCUMENT(NOT NEEDED FOR THE ASSIGNMENT) */
+
+/* .mb-1p5{
+    margin-bottom: 1.5%;
+}
+
+.mb-5{
+    margin-bottom: 5%;
+}
+
+#icons-container i {
+    font-size: 22px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-facebook{
+    background-color: #3e5b98;
+}
+
+.bg-twitter{
+    background-color: #4da7de;
+} 
+
+.w-40{
+    width: 40%;
+}
+
+#icons-container span{
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.color-gray{
+    color: #8c8c95;
+    font-size: 0.97rem;
+    line-height: 1.5;
+}
+
+#profile-card-section img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#profile-card-section{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 15%;
+}
+
+.p-10{
+    padding: 10%;
+} */
