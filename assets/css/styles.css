@@ -13,6 +13,10 @@ body{
     transition: all 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
 }
 
+.card-shadow img{
+    transition: transform 0.3s;
+}
+
 .containerise{
     margin: auto;
     width: 80%;
@@ -41,8 +45,8 @@ body{
     width: 100%;
     height: 385px;
     object-fit: cover;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .browse-posts{
@@ -130,6 +134,10 @@ body{
     line-height: 1.5;
 }
 
+.color-black{
+    color: #232323;
+}
+
 .mb-1p5{
     margin-bottom: 1.5%;
 }
@@ -156,5 +164,22 @@ body{
 
 .color-white{
     color: white;
+}
+
+.card-shadow:hover, .card-shadow:hover a{
+    color: #3f69ff;
+}
+
+i{
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.card-shadow:hover{
+    transform: translateY(-5px) scale(0.9);
+}
+
+.card-shadow:hover img{
+    transform: scale(0.95);
 }
 
